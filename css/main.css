@@ -34,16 +34,19 @@ a {
 .header-logo:active {
   opacity: 0.5;
 }
-/* .header-nav > li {
+.nav-links a:hover,
+.nav-links a:active {
+  color: #ed5e2f;
+}
+.header-nav > li:first-child a {
+  color: #ed5e2f
+}
+.header-nav > li:first-child a:hover {
   color: #000;
-  display: inline-block;
-  font-size: 0.8rem;
-  font-weight: bold;
-  margin-left: 1em;
-  padding: 5.5vh 60px 0 0;
-  text-decoration: none;
-  text-transform: uppercase;
-} */
+}
+.header-nav > li:last-child a {
+  color: #ed5e2f
+}
 
 /* HERO STYLES */
 .full-hero {
