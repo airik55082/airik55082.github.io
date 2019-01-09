@@ -26,6 +26,14 @@ a {
   text-decoration: none;
   text-transform: uppercase;
 }
+.header-nav a:hover,
+.header-nav a:active {
+  color: #ed5e2f;
+}
+.header-logo:hover,
+.header-logo:active {
+  opacity: 0.5;
+}
 /* .header-nav > li {
   color: #000;
   display: inline-block;
