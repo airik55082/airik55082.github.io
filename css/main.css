@@ -50,9 +50,6 @@ a {
   background-color: #c7dbfc;
   height: 50vh;
 }
-.full-hero:hover {
-  background-color: #ed5e2f;
-}
 
 /* SOCIAL STYLES */
 .social-link {
@@ -80,9 +77,6 @@ a {
 .social-list > li {
   display: inline-block;
   margin: 0 0.5em;
-}
-.social-list > li > a:hover {
-  background-color: #ed5e2f;
 }
 
 /* BIO STYLES */
