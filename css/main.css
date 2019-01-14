@@ -17,7 +17,13 @@ h2 + p {
   text-align: center;
 }
 
-/* HEADER */
+/* HEADER STYLES*/
+.header {
+  background-color: #aaa;
+  height: 300px;
+  position: relative;
+  width: 100%;
+}
 .header-nav {
   float: right;
   padding: 5.5vh 60px 0 0;
@@ -54,6 +60,11 @@ h2 + p {
 }
 .header-nav > li:first-child a:hover {
   color: #000;
+}
+.header-logo {
+  bottom: -50px;
+  position: absolute;
+  right: 50px;
 }
 
 /* HERO STYLES */
