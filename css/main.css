@@ -112,7 +112,7 @@ h2 ~ p {
 /* SOCIAL STYLES */
 .social-list {
   list-style: none;
-  padding: 0;
+  padding: 10vh 0 0 0;
   text-align: center;
 }
 .social-link {
