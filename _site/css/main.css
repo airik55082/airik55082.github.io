@@ -77,8 +77,6 @@ h2 + p {
 .full-hero {
   background-color: #c7dbfc;
   height: 50vh;
-
-  position: relative;
 }
 
 /* SOCIAL STYLES */
@@ -102,12 +100,7 @@ h2 + p {
 .social-list {
   list-style: none;
   padding: 0;
-  /* text-align: center; */
-
-  position: absolute;
-  /* top: 90%; */
-  bottom: 10px;
-  left: 10px;
+  text-align: center;
 }
 .social-list > li {
   display: inline-block;
