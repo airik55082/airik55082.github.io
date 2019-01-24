@@ -107,6 +107,8 @@ h2 ~ p {
 .full-hero {
   background-color: #c7dbfc;
   background-size: cover;
+  /* background-repeat: no-repeat; */
+  /* background-size: 300px auto; */
   box-sizing: border-box;
   height: 100vh;
   padding-top: 10vh;
