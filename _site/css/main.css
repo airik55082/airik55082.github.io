@@ -234,6 +234,9 @@ h2 ~ p {
   height: 90vh;
   overflow: scroll;
 }
+.gallery-thumbs .current {
+  cursor: default;
+}
 .gallery-thumbs > div {
   cursor: pointer;
 }
