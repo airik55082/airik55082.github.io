@@ -40,6 +40,20 @@ h2 ~ p {
   max-width: 70%;
   text-align: center;
 }
+@media (max-width: 800px) {
+  html {
+    box-shadow: none;
+    padding: 0;
+  }
+  .post-aside {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .half-hero {
+    display: none;
+  }
+}
 
 /* HEADER STYLES */
 .header {
